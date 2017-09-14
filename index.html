@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Portfolio Default | Triangle</title>
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Portfolio | Yo, This is AbaoYang (楊鈞宜)</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!--<link href="css/font-awesome.min.css" rel="stylesheet">-->
     <link href="css/lightbox.css" rel="stylesheet">  
     <link href="css/animate.min.css" rel="stylesheet"> 
 	<link href="css/main.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <style>
+    html,body,h1,h2,h3,h4,h5,h6 {font-family: "微軟正黑體", sans-serif}
+    </style>
 
     <!--[if lt IE 9]>
 	    <script src="js/html5shiv.js"></script>
@@ -54,9 +59,9 @@
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="aboutme.html">About Me</a></li>
-                        <li><a href="index.html">Portfolio</a></li>
-                        <li><a href="#footer">Contact</a></li>
+                        <li><a href="aboutme.html">認識我（的履歷）</a></li>
+                        <li class="active"><a href="index.html">Portfolio 作品集</a></li>
+                        <li><a href="#footer">一鍵與我連繫</a></li>
                     </ul>
                 </div>
             </div>
@@ -71,8 +76,8 @@
                 <div class="row">
                     <div class="action">
                         <div class="col-sm-12 text-center">
-                            <!--<h1 class="title">JiunYi Yang \ 楊鈞宜</h1>
-                            <p>Marketer x FrontEnd Developer</p>-->
+                            <h1 class="title" style="line-height: 90px">這是我的作品集！請多指教：）</h1>
+                            <p>(選擇下方標籤可篩出該領域作品，點進去看更多)</p>
                         </div>
                     </div>
                 </div>
@@ -202,7 +207,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-6 col-sm-4 col-md-4 portfolio-item SMM">
+                    <div class="col-xs-6 col-sm-4 col-md-4 portfolio-item SMM" style="margin-bottom: 10px">
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb">
@@ -297,7 +302,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-6 col-sm-4 col-md-4 portfolio-item InfoG">
+                    <div class="col-xs-6 col-sm-4 col-md-4 portfolio-item InfoG" style="margin-bottom: 80px">
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb">
@@ -354,7 +359,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-6 col-sm-4 col-md-4 portfolio-item SMM">
+                    <div class="col-xs-6 col-sm-4 col-md-4 portfolio-item SMM" style="margin-bottom: 250px">
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb">
@@ -555,40 +560,41 @@
                         <h2>Contacts</h2>
                         <address>
                         EMAIL: <a href="mailto:jiunyi.yang.abao@gmail.com">jiunyi.yang.abao@gmail.com</a> <br> 
-                        PHONE: +886 989 960 615 <br> 
+                        PHONE: +886 989 960 615 <br>
                         </address>
 
                         <h2>Address</h2>
                         <address>
-                        Unit C2, St.Vincent's Trading Est., <br> 
-                        Feeder Road, <br> 
-                        Bristol, BS2 0UY <br> 
-                        United Kingdom <br> 
+                        3F., No.46, Sec. 1, Keelung Rd., Songshan Dist., <br> 
+                        Taipei City 10566, Taiwan <br> 
+                        10566 松山區基隆路一段46號3樓<br> 
+                        台北市，台灣 <br> 
                         </address>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <div class="contact-form bottom">
-                        <h2>Send a message</h2>
-                        <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
+                        <h2>一鍵與我連繫</h2>
+                        <form id="main-contact-form" name="contact-form" method="post" action="https://formspree.io/jiunyi.yang.abao@gmail.com" method="POST">
                             <div class="form-group">
                                 <input type="text" name="name" class="form-control" required="required" placeholder="Name">
                             </div>
                             <div class="form-group">
-                                <input type="email" name="email" class="form-control" required="required" placeholder="Email Id">
+                                <input type="email" name="_replyto" class="form-control" required="required" placeholder="Your Email :D">
                             </div>
                             <div class="form-group">
-                                <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Your text here"></textarea>
+                                <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="歡迎給我提供任何建議：）"></textarea>
                             </div>                        
                             <div class="form-group">
-                                <input type="submit" name="submit" class="btn btn-submit" value="Submit">
+                                <input type="submit" name="submit" class="btn btn-submit" value="Send">
                             </div>
                         </form>
                     </div>
                 </div>
                 <div class="col-sm-12">
                     <div class="copyright-text text-center">
-                        <p>&copy; AbaoYang 2017. All Rights Reserved.</p>
+                        <a href="#header"><i class="fa fa-chevron-up" style="font-size: 36px; color: #fff"></i></a>
+                        <p><br>&copy; AbaoYang 2017.All Rights Reserved.</p>
                     </div>
                 </div>
             </div>
